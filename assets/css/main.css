@@ -1,8 +1,81 @@
-.main-container{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+.main-container {
     display: grid;
     place-items: center;
+    margin-top: 13vmin;
 }
 
-.card{
-    background-color: black;
+.card {
+    background-color: white;
+    width: 25rem;
+    border-radius: 1rem;
+}
+
+.card-header {
+    overflow: hidden;
+    position: relative;
+}
+
+.card-header .card-header-image img {
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.card-header .card-header-bottom-image img {
+    position: absolute;
+    width: 100%;
+    top: 12.8rem;
+}
+
+.card-body .card-body-title {
+    margin-left: 1rem;
+    width: fit-content;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: #111729;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.card-body .card-body-subtitle {
+    font-family: 'Lato', sans-serif;
+    color: #677489;
+    margin-left: 1rem;
+}
+
+.card-footer {
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+}
+
+.card-footer-profile {
+    display: flex;
+}
+
+.card-footer .card-footer-profile-image img {
+    width: 2.5rem;
+    border-radius: 50%;
+}
+
+.card-footer-titles {
+    margin-left: 1rem
+}
+
+.card-footer-profile-title {
+    font-family: 'Poppins', sans-serif;
+    color: #111729;
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+.card-footer-profile-subtitle {
+    font-family: 'Lato', sans-serif;
+    color: #677489;
+    font-size: .8rem;
+    font-weight: bold;
 }
