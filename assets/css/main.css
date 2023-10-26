@@ -6,7 +6,7 @@
 .main-container {
     display: grid;
     place-items: center;
-    margin-top: 13vmin;
+    margin-top: 14vmin;
 }
 
 .card {
